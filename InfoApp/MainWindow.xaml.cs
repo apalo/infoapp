@@ -31,7 +31,7 @@ namespace InfoApp
             this.TextBlock_OsVersion.Text = SystemInfo.OSName;
             this.TextBlock_SystemPath.Text = SystemInfo.SystemPath;
             this.TextBlock_TotPhysMem.Text = SystemInfo.GetPhysicalMemory() + " MB";
-            this.TextBlock_UsablePhysMem.Text = SystemInfo.GetUsablePhysicalMemory() + " MB!";
+            this.TextBlock_UsablePhysMem.Text = SystemInfo.GetUsablePhysicalMemory() + " MB";
             this.TextBlock_AvailPhysMem.Text = SystemInfo.GetAvailablePhysicalMemory() + " MB" +
                 " (" + SystemInfo.GetMemoryPercentFree() + "%)";
         }

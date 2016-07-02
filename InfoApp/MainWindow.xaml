@@ -25,20 +25,50 @@
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Column="0" Grid.Row="0" Margin="0,5,0,0">OS version:</TextBlock>
-                <TextBlock Name="TextBlock_OsVersion"   Margin="0,5,0,0" Grid.Column="1" Grid.Row="0"></TextBlock>
+                <TextBox Name="TextBlock_OsVersion"   
+                         Margin="0,5,0,0" 
+                         Grid.Column="1" 
+                         Grid.Row="0"
+                         IsReadOnly="True" 
+                         Background="AliceBlue" 
+                         BorderThickness="0">
+                </TextBox>
                 <TextBlock Grid.Column="0" Grid.Row="1" Margin="0,5,0,0">System Path:</TextBlock>
-                <TextBlock Name="TextBlock_SystemPath"  Margin="0,5,0,0" Grid.Column="1" Grid.Row="1"></TextBlock>
+                <TextBox Name="TextBlock_SystemPath"  
+                         Margin="0,5,0,0" 
+                         Grid.Column="1" 
+                         Grid.Row="1" 
+                         IsReadOnly="True" 
+                         Background="AliceBlue" 
+                         BorderThickness="0">
+                </TextBox>
                 <TextBlock Grid.Column="0" Grid.Row="2" Margin="0,5,0,0">Physical Memory:</TextBlock>
-                <TextBlock Name="TextBlock_TotPhysMem"  Margin="0,5,0,0" Grid.Column="1" Grid.Row="2"></TextBlock>
+                <TextBox Name="TextBlock_TotPhysMem"
+                         Margin="0,5,0,0" 
+                         Grid.Column="1" 
+                         Grid.Row="2" 
+                         IsReadOnly="True" 
+                         Background="AliceBlue" 
+                         BorderThickness="0">
+                </TextBox>
                 <TextBlock Grid.Column="0" Grid.Row="3" Margin="0,5,0,0">Usable Physical Memory:</TextBlock>
-                <TextBlock Name="TextBlock_UsablePhysMem"  Margin="0,5,0,0" Grid.Column="1" Grid.Row="3"></TextBlock>
+                <TextBox Name="TextBlock_UsablePhysMem"
+                         Margin="0,5,0,0"
+                         Grid.Column="1"
+                         Grid.Row="3"
+                         IsReadOnly="True"
+                         Background="AliceBlue"
+                         BorderThickness="0">
+                </TextBox>
                 <TextBlock Grid.Column="0" Grid.Row="4" Margin="0,5,0,0">Available Physical Memory:</TextBlock>
-                <TextBlock Name="TextBlock_AvailPhysMem"  Margin="0,5,0,0" Grid.Column="1" Grid.Row="4"></TextBlock>
-            </Grid>
-        </TabItem>
-        <TabItem Header="Network">
-            <Grid Background="AliceBlue">
-                
+                <TextBox Name="TextBlock_AvailPhysMem"
+                         Margin="0,5,0,0"
+                         Grid.Column="1"
+                         Grid.Row="4"
+                         IsReadOnly="True"
+                         Background="AliceBlue"
+                         BorderThickness="0">
+                </TextBox>
             </Grid>
         </TabItem>
     </TabControl>
